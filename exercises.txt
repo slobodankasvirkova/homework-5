@@ -1,0 +1,13 @@
+HTML Homework 4 Exercises
+
+1.Create a CARD like on exercise-1.jpg
+
+2.Create a HTML Page that has a Navigation that looks like exercise-2.png, The navigation should use blue and black color, not gradient
+
+3.Create a HTML Page that has a Navigation that looks like exercise-3.png, home is how the link should look on hover
+
+4. Create a HTML Page that looks like exercise-4.png, the div should take the full width and height of the browser
+
+5.Create a HTML Page that looks like exercise-4.png, the div should take the full width and height of the browser, use any background image
+
+Use CSS Classes in CSS.
