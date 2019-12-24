@@ -1,0 +1,62 @@
+html { /* setting the picture for background */
+    background: url(image-3.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    margin: 0;
+}
+ .clearfix:before,
+.clearfix:after {
+    content: '';
+    display:table;
+}
+.clearfix:after {
+    clear: both;
+}
+.custom-div { /* attributes for div */
+    text-align: center;
+    padding: 250px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -150px;
+    
+}
+.first-p { /* attributes for first p */
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 50px;
+}
+.second-p { /* attributes for second p */
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 25px;
+    
+}
+.third-p { /* attributes for third p */
+    font-size: 25px;
+    margin: 40px;
+    color: white;
+}
+.button { /* attributes for button */
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 1px;
+    
+}
+.button:hover {
+    color: gray;
+    font-size: 12px;
+}

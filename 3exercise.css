@@ -1,0 +1,41 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: burlywood;
+}
+ .clearfix:before,
+.clearfix:after {
+    content: '';
+    display:table;
+}
+.clearfix:after {
+    clear: both;
+}
+.custom-nav .custom-ul { /* attrubets for list and navigation */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: teal;
+    height: 49px;
+}
+.custom-nav .custom-ul .custom-li { /* elements of the list go left */
+    float: left;
+}
+.custom-a { /* attributes for the buttons */
+    text-decoration: none;
+    display: block;
+    padding: 10px 30px;
+    margin: 10px; 
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+}
+.custom-a:hover { /* attributes for hover of button */
+    box-shadow: inset 1px 1px 20px 7px darkslategrey;
+    border-radius: 5px;
+}
